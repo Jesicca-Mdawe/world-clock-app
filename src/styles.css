@@ -1,6 +1,17 @@
 body {
-  background-color: #f9f7fe;
+  background: linear-gradient(
+    -180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
   font-family: sans-serif;
+  background-image: url("https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  color: black;
 }
 
 h1 {
@@ -25,10 +36,14 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: linear-gradient(
+    -180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .city {
@@ -61,5 +76,5 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
